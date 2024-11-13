@@ -1,0 +1,202 @@
+/* General Body Styling */
+body {
+    background-image: url('https://i.pinimg.com/736x/d6/ea/6f/d6ea6f1ecf597cd976fe10519f495f3a.jpg'); /* Your background image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login Container */
+.login-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login Card Styling */
+.login-card {
+    background-color: rgba(248, 245, 245, 0.8);
+    border-radius: 12px;
+    padding: 40px;
+    width: 200%;
+    max-width: 700px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.title {
+    text-align: center;
+    font-size: 30px;
+    color:green;
+    margin-bottom: 20px;
+}
+
+/* Form Input Styling */
+.form-group label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.form-control {
+    font-size: 16px;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 2px solid #6252bd;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #6252bd;
+    box-shadow: 0 0 8px rgba(56, 142, 60, 0.5);
+    outline: none;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #6252bd;
+    border-color: #6252bd;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #6252bd;
+    border-color: #6252bd;
+}
+
+/* Register Link Styling */
+.register-link {
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.register-link a {
+    color:green;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .login-card {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+/* Full-screen container to center the registration card */
+/* Make sure the body takes up the full height and has no margin */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Full-screen container to center the registration card */
+.full-screen-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Takes up the full height of the viewport */
+    background: url('path/to/your-background-image.jpg') no-repeat center center; /* Background image */
+    background-size: cover; /* Makes sure the background image covers the entire screen */
+}
+
+/* Registration card styling */
+.registration-card {
+    background-color: rgba(255, 255, 255, 0.85); /* Light transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Max width for the form */
+}
+
+/* Title */
+h4.text-success {
+    color: #28a745;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form fields */
+.form-group label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.form-control {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 2px solid #28a745;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: #218838;
+    box-shadow: 0 0 5px rgba(56, 142, 60, 0.5);
+    outline: none;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #218838;
+}
+
+/* Login link styling */
+p.text-center a {
+    color: #28a745;
+    text-decoration: none;
+}
+
+p.text-center a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .registration-card {
+        width: 90%;
+        padding: 20px;
+    }
+}
